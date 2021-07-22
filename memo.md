@@ -23,3 +23,11 @@
 * null防止をする
 
 <img src="https://github.com/ryoya-cre8or/TIL_day4/blob/main/%E5%A4%89%E6%9B%B4%E5%BE%8C%E7%94%BB%E5%83%8F.png" width="300px"/>
+
+if文を省略することも可能
+
+```
+a ??= 1 //aがnullの時は１を代入
+```
+
+<img src="https://github.com/ryoya-cre8or/TIL_day4/blob/main/%E5%A4%89%E6%9B%B4%E5%BE%8C%E7%94%BB%E5%83%8F(%E7%9C%81%E7%95%A5ver.).png" width="300px"/>
