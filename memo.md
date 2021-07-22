@@ -1,6 +1,9 @@
 ### やったこと
 
 * DartPadのnull safety
+* 1行関数での記述
+
+**DartPadのnull safety**
 
 **変更前1**
 
@@ -31,3 +34,25 @@ a ??= 1 //aがnullの時は１を代入
 ```
 
 <img src="https://github.com/ryoya-cre8or/TIL_day4/blob/main/%E5%A4%89%E6%9B%B4%E5%BE%8C%E7%94%BB%E5%83%8F(%E7%9C%81%E7%95%A5ver.).png" width="300px"/>
+
+**1行関数での記述**
+
+```
+int add() {
+  return 5 + 2;
+}
+```
+
+上のコードは下と同義
+```
+int add() => 5 + 2;
+```
+
+つまりこう書ける
+```
+void main() {
+  print(add()); 
+}
+
+int add() => 5 + 2;
+```
